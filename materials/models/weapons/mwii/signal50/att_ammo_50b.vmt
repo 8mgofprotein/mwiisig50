@@ -1,0 +1,38 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models\weapons\mwii\signal50\att_ammo_50b_col"
+"$bumpmap" "models\weapons\mwii\signal50\att_ammo_50b_nrm"
+"$phongexponenttexture"	"models\weapons\mwii\signal50\att_ammo_50b_exp"
+"$phongwarptexture"	"models\weapons\mwii\signal50\phongwarp_bullet"
+
+	"$nocull" "1"
+	"$nodecal" "1"
+	"$blendtintbybasealpha" "1"
+	"$color2" "[.4 .4 .4]"
+	
+	// DETAIL
+	
+    $detail "metal4"
+    $detailblendfactor 1.25
+    $detailblendmode 0
+	
+	// PHONG SHADING
+	$phong                      	1
+	$phongboost                	5
+	$phongfresnelranges        	"[.3 4 5]"
+	$phongalbedotint            	1
+	$phongexponent          	    10
+//	$normalmapalphaphongmask    	1
+
+	// ENVIRONMENT REFLECTION
+	"$envmaptint" 			"[.5 .5 .5]"
+     	"$normalmapalphaenvmapmask" 	"0"
+     	"$envmapfresnel" 		"0.5"
+
+   	// RIMLIGHT
+	"$rimlight" "1"
+	"$rimlightboost" "6"
+	"$rimlightexponent" "30"
+	"$rimmask" "1"
+	
+}
