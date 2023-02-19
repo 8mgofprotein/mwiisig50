@@ -1,7 +1,9 @@
 ATTACHMENT.Base = "att_barrel"
-ATTACHMENT.Name = "FSS Precision 20.0""
+ATTACHMENT.Name = "FSS Precision 20.0"
 ATTACHMENT.Model = Model("models/aiden/limax/v_att_vm_ar_limax_barlong.mdl")
 ATTACHMENT.Icon = Material("vgui/nekyo/icons/barlong.vmt")
+
+
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)

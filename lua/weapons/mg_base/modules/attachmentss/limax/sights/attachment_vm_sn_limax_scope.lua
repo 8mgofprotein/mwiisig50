@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_optic_20x"
 ATTACHMENT.Name = "Signal .50 Scope"
 ATTACHMENT.Model = Model("models/aiden/limax/v_att_vm_ar_limax_scope.mdl")
-ATTACHMENT.Icon = Material("vgui/nekyo/icons/icon_attachment_sn_xmike109_scope.vmt")
+ATTACHMENT.Icon = Material("vgui/nekyo/icons/scope.vmt")
 ATTACHMENT.Bodygroups = {
     ["sight"] = 2
 }

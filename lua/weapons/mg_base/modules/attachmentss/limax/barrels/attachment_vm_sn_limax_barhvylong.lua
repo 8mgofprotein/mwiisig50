@@ -1,5 +1,5 @@
 ATTACHMENT.Base = "att_barrel"
-ATTACHMENT.Name = "FSS Precision Elite 20.0""
+ATTACHMENT.Name = "FSS Precision Elite 20.0"
 ATTACHMENT.Model = Model("models/aiden/limax/v_att_vm_ar_limax_barhvylong.mdl")
 ATTACHMENT.Icon = Material("vgui/nekyo/icons/barhvylong.vmt")
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)

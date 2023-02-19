@@ -29,7 +29,7 @@ SWEP.Customization = {
 
     {"attachment_vm_sn_limax_mag", "attachment_vm_sn_limax_xmags"},
    
-    {"attachment_vm_sn_limax_barrel","attachment_vm_sn_limax_barshort","attachment_vm_sn_limax_barlong","attachment_vm_sn_limax_barhvylong","attachment_vm_sn_limax_barhvy"},
+    {"attachment_vm_sn_limax_barrel", "attachment_vm_sn_limax_barshort", "attachment_vm_sn_limax_barlong", "attachment_vm_sn_limax_barhvylong", "attachment_vm_sn_limax_barhvy"},
 
     {"att_muzzle", "att_vm_hdromeo_compensator01", "att_vm_hdromeo_flashhider01", "att_vm_hdromeo_muzzlebrake01", 
     "att_vm_hdromeo_muzzlebrake02", "att_vm_hdromeo_silencer01", "att_vm_hdromeo_silencer02", 
