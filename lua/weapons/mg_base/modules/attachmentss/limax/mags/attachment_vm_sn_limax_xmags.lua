@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_magazine"
 ATTACHMENT.Name = "13 Ext Mag"
 ATTACHMENT.Model = Model("models/aiden/limax/v_att_vm_ar_limax_xmags.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/xmike109/icon_attachment_sn_xmike109_calcust1.vmt")
+ATTACHMENT.Icon = Material("vgui/nekyo/icons/xmag.vmt")
 ATTACHMENT.BulletList = {
     [0] = {"j_ammo_01"},
 	[1] = {"j_ammo_02"},

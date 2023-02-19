@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_stock"
 ATTACHMENT.Name = "Forge Tac Low Profile"
 ATTACHMENT.Model = Model("models/aiden/limax/v_att_vm_ar_limax_stockl.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/xmike109/icon_attachment_sn_xmike109_stockl.vmt")
+ATTACHMENT.Icon = Material("vgui/nekyo/icons/stockl.vmt")
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 
 function ATTACHMENT:Stats(weapon)

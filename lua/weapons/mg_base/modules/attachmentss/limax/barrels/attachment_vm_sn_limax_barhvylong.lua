@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_barrel"
 ATTACHMENT.Name = "FSS Precision Elite 20.0""
 ATTACHMENT.Model = Model("models/aiden/limax/v_att_vm_ar_limax_barhvylong.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/xmike109/icon_attachment_sn_xmike109_barlong.vmt")
+ATTACHMENT.Icon = Material("vgui/nekyo/icons/barhvylong.vmt")
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)

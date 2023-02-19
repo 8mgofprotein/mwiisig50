@@ -11,7 +11,7 @@ include("customization.lua")
 
 if CLIENT then
     killicon.Add( "mg_limax", "VGUI/entities/mg_limax", Color(255, 0, 0, 255))
-    SWEP.WepSelectIcon = surface.GetTextureID("VGUI/spawnicons/icon_cac_weapon_sn_limax")
+    SWEP.WepSelectIcon = surface.GetTextureID("VGUI/entities/mg_limax")
 end
 
 -- SWEP.GripPoseParameters = {"grip_ang_offset", "grip_vert_offset"}

@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_stock"
 ATTACHMENT.Name = "XRK Punch"
 ATTACHMENT.Model = Model("models/aiden/limax/v_att_vm_ar_limax_stockh.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/xmike109/icon_attachment_sn_xmike109_stocks.vmt")
+ATTACHMENT.Icon = Material("vgui/nekyo/icons/stockh.vmt")
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 
