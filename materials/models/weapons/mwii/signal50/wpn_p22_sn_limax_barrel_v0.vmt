@@ -7,6 +7,7 @@
     "$phongexponenttexture" "models\weapons\mwii\signal50\wpn_p22_sn_limax_barrel_v0_e"
     "$phongwarptexture" "models\weapons\mwii\signal50\phongwarp_steel"
 
+    "$color2" "[0 0 0]"
     "$phong" "1"
     "$phongboost" "2.5"
     "$phongfresnelranges" "[1 0.5 0]"
