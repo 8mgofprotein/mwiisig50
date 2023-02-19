@@ -2,26 +2,30 @@
 //https://developer.valvesoftware.com/wiki/$phong
 "VertexLitGeneric"
 {
-    "$basetexture" "models\weapons\mwii\signal50\wpn_p22_sn_limax_muzzle_v0_rgb"
-    "$bumpmap" "models\weapons\mwii\signal50\wpn_p22_sn_limax_muzzle_v0_n"
-    "$phongwarptexture" "models\weapons\mwii\signal50\phongwarp_steel"
+    "$basetexture" "models/weapons/mwii/signal50/\wpn_p22_sn_limax_muzzle_v0_rgb"
+    "$bumpmap" "models/weapons/mwii/signal50/\wpn_p22_sn_limax_muzzle_v0_n"
+    "$phongexponenttexture" "models/weapons/mwii/signal50/\wpn_p22_sn_limax_muzzle_v0_e"
 
+    "$color2" "[0 0 0]"
+    "$blendtintbybasealpha" "1"
     "$phong" "1"
-    "$phongboost" "1.5"
+    "$phongboost" "1"
+    "$phongalbedotint" "0"              //enable for brushed metals
     "$phongfresnelranges" "[1 0.5 0]"
 
     //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
     "$rimlight" "1"
     "$rimlightexponent" "100"
     "$rimmask" "1"
-    "$rimlightboost" ".1"
+    "$rimlightboost" "1"                //might want to boost this if using phongalbedotint
 
     "$basemapalphaenvmapmask" "1"
     "$envmapfresnel" "1"
-    "$envmap" "env_cubemap"
-    "$envmaptint" "[1 1 1]"
 
-    //remove this if viewing outside of MWB
+    //enable these if viewing outside of MWB
+    //"$envmap" "env_cubemap"
+    //"$envmaptint" "[1 1 1]"
+
     "Proxies"
     {
         "MwEnvMapTint"
