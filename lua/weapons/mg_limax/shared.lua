@@ -37,7 +37,7 @@ SWEP.HoldType = "BigGun"
 
 SWEP.Primary.Sound = Sound("weap_limax_fire_plr")
 SWEP.Primary.Ammo = "357"
-SWEP.Primary.ClipSize = 10
+SWEP.Primary.ClipSize = 5
 SWEP.Primary.Automatic = false
 SWEP.Primary.BurstRounds = 1
 SWEP.Primary.BurstDelay = 0
@@ -108,15 +108,16 @@ SWEP.Recoil = {
     AdsMultiplier = 0.8, --multiply the values by this amount while aiming
     Seed = 4577888, --give this a random number until you like the current recoil pattern
     Punch = 3, --recoil will offset the view by this amount (takes vertical, horizontal and adsmul into account)
-    AdsShakeMultiplier = 1
+    AdsShakeMultiplier = 2,
+	ViewModelMultiplier = 2
 }
 
 SWEP.Bullet = {
-    Damage = {215, 178}, --first value is damage at 0 meters from impact, second value is damage at furthest point in effective range
+    Damage = {255, 210}, --first value is damage at 0 meters from impact, second value is damage at furthest point in effective range
     EffectiveRange = 300, --in meters, damage scales within this distance
     DropOffStartRange = 50,
     Range = 350, --in meters, after this distance the bullet stops existing
-    Tracer = false, --show tracer
+    Tracer = true, --show tracer
     NumBullets = 1, --the amount of bullets to fire
     PhysicsMultiplier = 1.25, --damage is multiplied by this amount when pushing objects
     HeadshotMultiplier = 2,
@@ -139,8 +140,8 @@ SWEP.Zoom = {
 
 SWEP.WorldModelOffsets = {
     Bone = "tag_sling",
-    Angles = Angle(10,5,180),
-    Pos = Vector(10, -1, -2.5)
+    Angles = Angle(-90,0,-90),
+    Pos = Vector(-11, 7, 1)
 }
 
 SWEP.ViewModelOffsets = {
@@ -175,6 +176,6 @@ function SWEP:PrimaryAttack()
     local clip = self:Clip1()
     weapons.Get(self.Base).PrimaryAttack(self)
     if (clip != self:Clip1()) then
-        self:MakeEnvironmentDust(150)
+        self:MakeEnvironmentDust(300)
     end
 end
