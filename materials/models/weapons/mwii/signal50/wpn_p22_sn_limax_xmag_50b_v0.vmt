@@ -2,11 +2,11 @@
 //https://developer.valvesoftware.com/wiki/$phong
 "VertexLitGeneric"
 {
-    "$basetexture" "models\weapons\mwii\signal50\wpn_p22_sn_limax_xmag_50b_v0_rgb"
-    "$bumpmap" "models\weapons\mwii\signal50\wpn_p22_sn_limax_xmag_50b_v0_n"
-    "$phongexponenttexture" "models\weapons\mwii\signal50\wpn_p22_sn_limax_xmag_50b_v0_e"
+    "$basetexture" "models/weapons/mwii/signal50/\wpn_p22_sn_limax_xmag_50b_v0_rgb"
+    "$bumpmap" "models/weapons/mwii/signal50/\wpn_p22_sn_limax_xmag_50b_v0_n"
+    "$phongexponenttexture" "models/weapons/mwii/signal50/\wpn_p22_sn_limax_xmag_50b_v0_e"
 
-    "$color2" "[.86 .86 .86]"
+    "$color2" "[0 0 0]"
     "$blendtintbybasealpha" "1"
     "$phong" "1"
     "$phongboost" "1"

@@ -6,7 +6,6 @@
     "$bumpmap" "models/weapons/mwii/signal50/\wpn_p22_sn_limax_barshort_railcover_v0_n"
     "$phongexponenttexture" "models/weapons/mwii/signal50/\wpn_p22_sn_limax_barshort_railcover_v0_e"
 
-
     "$color2" "[0 0 0]"
     "$blendtintbybasealpha" "1"
     "$phong" "1"
