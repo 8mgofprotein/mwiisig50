@@ -1,0 +1,38 @@
+//if you don't know what a parameter does, visit:
+//https://developer.valvesoftware.com/wiki/$phong
+"VertexLitGeneric"
+{
+    "$basetexture" "models/weapons/mwii/signal50/\wpn_p22_sn_limax_upper_v0_rgb"
+    "$bumpmap" "models/weapons/mwii/signal50/\wpn_p22_sn_limax_upper_v0_n"
+    "$phongexponenttexture" "models/weapons/mwii/signal50/\wpn_p22_sn_limax_upper_v0_e"
+
+    "$color2" "[0 0 0]"
+    "$blendtintbybasealpha" "1"
+    "$phong" "1"
+    "$phongboost" "1"
+    "$phongalbedotint" "0"              //enable for brushed metals
+    "$phongfresnelranges" "[1 0.5 0]"
+
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+    "$rimlight" "1"
+    "$rimlightexponent" "100"
+    "$rimmask" "1"
+    "$rimlightboost" "1"                //might want to boost this if using phongalbedotint
+
+    "$basemapalphaenvmapmask" "1"
+    "$envmapfresnel" "1"
+
+    //enable these if viewing outside of MWB
+    //"$envmap" "env_cubemap"
+    //"$envmaptint" "[1 1 1]"
+
+    "Proxies"
+    {
+        "MwEnvMapTint"
+        {
+            "specularity" "0.5"             //0.25, 0.5, 0.75, 1
+            "min" "0"
+            "max" "1"                       //change this if too bright in game
+        }
+    }
+}

@@ -18,6 +18,7 @@ end
 -- SWEP.GripPoseParameters2 = {"grip_pistolgrip_offset"}
 
 SWEP.Base = "mg_base" 
+SWEP.GripPoseParameters = {"grip_ang_offset", "grip_vert_offset", "grip_vert_pro_offset"}
 
 SWEP.PrintName = "Signal .50"
 SWEP.Category = "Modern Warfare"

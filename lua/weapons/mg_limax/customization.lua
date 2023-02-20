@@ -57,6 +57,10 @@ SWEP.Customization = {
     {"att_laser", "attachment_vm_ar_mike4_laser01", "attachment_vm_ar_mike4_laser02", 
     "attachment_vm_ar_mike4_laser03","wp_ngal",   "wp_peq",   "wp_wrxe",
 	"wp_dbala3", "wp_ls321", "wp_mawl"}
+	
+	--{"att_grip", "attachment_vm_ar_mike4_angledgrip01", "attachment_vm_ar_mike4_angledgrip02", "attachment_vm_ar_mike4_stubbygrip01", 
+   -- "attachment_vm_ar_mike4_stubbygrip02", "attachment_vm_ar_mike4_vertgrip01", "attachment_vm_ar_mike4_vertgrip02", 
+   -- "attachment_vm_ar_mike4_vertgrip03"} not working as intended
 }
 
 --NECESSARY: it loads custom attachments from other authors
